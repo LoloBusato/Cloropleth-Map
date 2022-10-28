@@ -1,12 +1,16 @@
 #legend {
   height: 100px;
-  width: 800px;
+  width: 560px;
 }
 #legend g {
   text-align: center;
 }
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  background: gray;
 }
 #tooltip{
   line-height: 1px;
@@ -15,4 +19,7 @@ body {
 }
 .county:hover {
   fill: black;
+}
+#canvas {
+  background: navy
 }
