@@ -1,0 +1,18 @@
+#legend {
+  height: 100px;
+  width: 800px;
+}
+#legend g {
+  text-align: center;
+}
+body {
+  text-align: center;
+}
+#tooltip{
+  line-height: 1px;
+  background-color: lightblue;
+  padding: 0 20px;
+}
+.county:hover {
+  fill: black;
+}
